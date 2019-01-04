@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basket</title>
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="stylesheet" href="css/ibx-v2.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="js/ts-9.1.2.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body role="document">
+	<header class="ts-topbar ts-toolbar ts-spirit ts-bg-dark bg-basket-header">
+		<div class="fluid-grid-container">
+			<div class="row group">
+				<div class="six-col-desktop columns custom-basket-header">
+					<div class="app-name-icon">
+						<i class="ts-icon-cart"></i>
+					</div>
+					<h3 class="app-name">Basket</h3>
+				</div>
+
+				<div class="six-col-desktop columns text-right ts-hide-mobile-only">
+					<menu class="ts-toolbar-menu ts-right">
+						<li class="ts-toolbar-item ts-item">
+							<a href="#" class="item-action-link">
+								<i class="ts-icon-support"></i>
+								Support
+							</a>
+
+							<a href="#" class="item-action-link">
+								<i class="ts-icon-other"></i>
+								Options
+							</a>
+						</li>
+						<li class="ts-toolbar-item ts-item">
+							<button data-ts="Button" class="ts-secondary">
+								<span>Add More Items</span>
+							</button>
+						</li>
+					</menu>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main data-ts="Main" class="white-bg">
+		<div class="main-page">
+			<div class="fixed-grid-container">
+				<div class="row group section-margin-top" style="height: 473px;">
+					<div class="twelve-col-desktop columns">
+						<div class="section-container-header">
+							<div class="fluid-grid-container">
+								<div class="row group">
+									<div class="six-col-desktop columns">
+										Requires Action (2)
+									</div>
+
+									<div class="six-col-desktop columns sort-by">
+										<span class="filtering">
+											Sort by: <strong>Supplier</strong> | <a href="#">Needed By Date</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div data-ts="Note" data-ts.closeable="true">
+							<i class="ts-icon-info"></i>
+							<p>Items in this area require further action by you before they can be ordered - please select a card (or multiple cards) to proceed | <a href="#">Need help?</a></p>
+						</div>
+					</div>
+					
+					<div class="four-col-desktop six-col-tablet twelve-col-mobile columns">
+						<div id="first-card" style="position: relative; top: 187px;">
+							<div id="cardone" class="card requires-action">
+								<div class="basket-card-container requires-action">
+									<div class="basked-card-image">
+										<img src="img/v1.jpg" role="img" />
+									</div>
+	
+									<div class="basket-card-header">
+										Product name lorem ipsum dolor et sit amet duis autem vel illum
+									</div>
+	
+									<div class="basket-checkbox">
+										<form data-ts="Form">
+											<label>
+												<input type="checkbox" class="card-checkbox" />
+												<span></span>
+											</label>
+										</form>
+									</div>
+	
+									<div class="price-container">
+										<span class="details-needed">Request Quote</span>
+									</div>
+
+									<div class="basket-card-header-delimiter"></div>
+
+									<div class="basket-card-details">
+										<table class="card-data-table">
+											<tr>
+												<td width="35%">
+													SUPPLIER
+												</td>
+												<td class="text-right">
+													<div class="supplier-data">
+														<span class="pre">Preferred</span> <span class="supplier-name">CompleteIT</span>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													NEEDED BY
+												</td>
+												<td class="text-right">
+													<span class="static-qty-data">
+													<span class="pre">22 days</span> <span class="quantity">2017-09-22</span>
+													</span>
+													<div class="edit-date-data">
+														<form data-ts="Form">
+															<fieldset>
+																<label>
+																	<input type="date" value="2017-09-22" min="2017-09-22" max="2018-01-01"/>
+																</label>
+															</fieldset>
+														</form>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													QUANTITY
+												</td>
+												<td class="text-right">
+													<span class="static-qty-data">
+														<span class="pre">Ea.</span> <span class="quantity">1</span>
+													</span>
+													<div class="edit-qty-data">
+														<span class="quantity">Ea.</span>
+														<input type="number" value="1" class="qty-input">
+													</div>
+												</td>
+											</tr>
+										</table>
+
+										<div style="border-top: 1px solid #f4f4f4; padding-top: 11px; margin-bottom: 22px;">
+											<p style="font-weight: 600; text-transform: uppercase; margin-bottom: 11px; font-size: 14px;">E-FORM DATA</p>
+
+											<p style="font-weight: 400; margin-bottom: 11px;">
+												<span style="font-weight: 700;">DO YOU REQUIRE CABLES?</span><br />Yes
+											</p>
+											<p style="font-weight: 400; margin-bottom: 11px;">
+												<span style="font-weight: 700;">DO YOU NEED AN INSTALATION SERVICE?</span><br />No
+											</p>
+											<p style="font-weight: 400; margin-bottom: 11px;">
+												<span style="font-weight: 700;">EXTENDED WARRANTY (24 MONTHS)?</span><br />Yes
+											</p>
+											<p style="font-weight: 400; margin-bottom: 11px;">
+												<span style="font-weight: 700;">NETFLIX/HBO GO SUBSCRIPTION?</span><br />No
+											</p>
+										</div>
+									</div>
+
+									<div class="basket-card-footer">
+										<div class="expand-card">
+											<a href="#" id="ico-switch" class="collapse-expand-ico"></a>
+										</div>
+										<div class="other-actions">
+											<button data-ts="Button" class="ts-secondary">
+												<span>Edit E-Form</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="four-col-desktop six-col-tablet twelve-col-mobile columns">
+						
+						<div style="position: relative; top: 187px;">
+							<div id="cardtwo" class="card requires-action">
+								<div class="basket-card-container requires-action quote">
+									<div class="basked-card-image" style="width: 55px; max-width: 55px;">
+										<img src="img/rfq-icon.png" role="img" />
+									</div>
+	
+									<div class="basket-card-header" style="margin-left: 55px;">
+										Product name lorem ipsum dolore...
+										<div class="quote-more-items" style="font-size: 12px; font-weight: 400; text-decoration: underline;"><a href="#">+3 other line items</a></div>
+									</div>
+	
+									<div class="basket-checkbox">
+										<form data-ts="Form">
+											<label>
+												<input type="checkbox" class="card-checkbox" />
+												<span></span>
+											</label>
+										</form>
+									</div>
+
+									<div class="basket-card-header-delimiter" style="margin-top: 15px;"></div>
+
+									<div class="basket-card-details">
+										<table class="card-data-table">
+											<tr>
+												<td width="35%">
+													CURRENT STATUS
+												</td>
+												<td class="text-right">
+													<div class="supplier-data">
+														<span style="line-height: 22px; font-size: 11px; text-transform: uppercase; font-weight: 700; background: #FFC107; height: 22px; display: inline-block; padding: 0 22px; color: #FFF; border-radius: 2px;">Sent</span>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td width="35%">
+													SUPPLIER
+												</td>
+												<td class="text-right">
+													<div class="supplier-data">
+														<span class="supplier-name">Supplier Company Alpha</span>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													SENT
+												</td>
+												<td class="text-right">
+													<span class="static-qty-data">
+														<span class="quantity">2018-05-30</span>
+													</span>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													NEEDED BY
+												</td>
+												<td class="text-right">
+													<span class="static-qty-data">
+														<span class="quantity">2018-06-29</span>
+													</span>
+												</td>
+											</tr>
+										</table>
+
+										<div style="border-top: 1px solid #f4f4f4; padding-top: 11px;">
+											<p style="font-weight: 600; text-transform: uppercase; margin-bottom: 11px; font-size: 14px;">QUOTE DETAILS</p>
+
+											<p style="font-weight: 400; margin-bottom: 11px;">
+												<span style="font-weight: 700;">MESSAGE</span><br /><span style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+											</p>
+										</div>
+
+										<div style="padding-top: 22px; margin-bottom: 22px;">
+											<p style="font-weight: 600; text-transform: uppercase; margin-bottom: 11px; font-size: 14px;">QUOTE ITEMS</p>
+
+											<div style="background: #FFF; border-radius: 3px; border: 1px solid #e6e6e6; padding: 11px 11px 0 11px; position: relative; margin-bottom: 22px;">
+												<div style="float: left; width: 55px; max-width: 55px;">
+														<img src="img/v2.jpg" role="img" style="max-width: 100%;">
+												</div>
+												<div style="margin-left: 66px; font-size: 14px; font-weight: 700;">
+													Product name lorem ipsum dolor et sit amet duis autem vel illuminat...
+												</div>
+												<div class="basket-card-header-delimiter"></div>
+
+												<table class="quote-card-data-table">
+													<tbody>
+														<tr>
+															<td width="35%">
+																SUPPLIER
+															</td>
+															<td class="text-right">
+																<div class="supplier-data">
+																	<span class="pre">Preferred</span> <span class="supplier-name">CompleteIT</span>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																NEEDED BY
+															</td>
+															<td class="text-right">
+																<span class="static-qty-data">
+																<span class="pre">22 days</span> <span class="quantity">2017-09-22</span>
+																</span>
+																<div class="edit-date-data">
+																	<form data-ts="Form" data-ts-spirit="ts.ui.FormSpirit" class="ts-form ts-spirit" novalidate="novalidate" action="javascript:void(false);">
+																		<fieldset data-ts-spirit="ts.ui.FieldSetSpirit" class="ts-fieldset ts-spirit">
+																			<label data-ts-spirit="ts.ui.LabelSpirit" class="ts-label ts-spirit ts-engine-webkit ts-fieldlabel ts-textlabel ts-fakelabel ts-datelabel">
+																				<input type="date" value="2017-09-22" min="2017-09-22" max="2018-01-01" data-ts-spirit="ts.ui.DateInputSpirit" class="ts-dateinput ts-spirit ts-field" spellcheck="false" autocomplete="off"><input data-ts-spirit="ts.ui.FakeDateInputSpirit" class="ts-fakedateinput ts-input ts-spirit ts-fake ts-field ts-text ts-date" tabindex="-1" type="text" name="" readonly="" spellcheck="false" autocomplete="off">
+																			</label>
+																		</fieldset>
+																	</form>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																QUANTITY
+															</td>
+															<td class="text-right">
+																<span class="static-qty-data">
+																	<span class="pre">Ea.</span> <span class="quantity">1</span>
+																</span>
+																<div class="edit-qty-data">
+																	<span class="quantity">Ea.</span>
+																	<input type="number" value="1" class="qty-input">
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+											<div style="background: #FFF; border-radius: 3px; border: 1px solid #e6e6e6; padding: 11px 11px 0 11px; position: relative; margin-bottom: 22px;">
+												<div style="float: left; width: 55px; max-width: 55px;">
+														<img src="img/v4.jpg" role="img" style="max-width: 100%;">
+												</div>
+												<div style="margin-left: 66px; font-size: 14px; font-weight: 700;">
+													Product name lorem ipsum dolor et sit amet duis autem vel illuminat...
+												</div>
+												<div class="basket-card-header-delimiter"></div>
+
+												<table class="quote-card-data-table">
+													<tbody>
+														<tr>
+															<td width="35%">
+																SUPPLIER
+															</td>
+															<td class="text-right">
+																<div class="supplier-data">
+																	<span class="pre">Preferred</span> <span class="supplier-name">CompleteIT</span>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																NEEDED BY
+															</td>
+															<td class="text-right">
+																<span class="static-qty-data">
+																<span class="pre">22 days</span> <span class="quantity">2017-09-22</span>
+																</span>
+																<div class="edit-date-data">
+																	<form data-ts="Form" data-ts-spirit="ts.ui.FormSpirit" class="ts-form ts-spirit" novalidate="novalidate" action="javascript:void(false);">
+																		<fieldset data-ts-spirit="ts.ui.FieldSetSpirit" class="ts-fieldset ts-spirit">
+																			<label data-ts-spirit="ts.ui.LabelSpirit" class="ts-label ts-spirit ts-engine-webkit ts-fieldlabel ts-textlabel ts-fakelabel ts-datelabel">
+																				<input type="date" value="2017-09-22" min="2017-09-22" max="2018-01-01" data-ts-spirit="ts.ui.DateInputSpirit" class="ts-dateinput ts-spirit ts-field" spellcheck="false" autocomplete="off"><input data-ts-spirit="ts.ui.FakeDateInputSpirit" class="ts-fakedateinput ts-input ts-spirit ts-fake ts-field ts-text ts-date" tabindex="-1" type="text" name="" readonly="" spellcheck="false" autocomplete="off">
+																			</label>
+																		</fieldset>
+																	</form>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																QUANTITY
+															</td>
+															<td class="text-right">
+																<span class="static-qty-data">
+																	<span class="pre">Ea.</span> <span class="quantity">1</span>
+																</span>
+																<div class="edit-qty-data">
+																	<span class="quantity">Ea.</span>
+																	<input type="number" value="1" class="qty-input">
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+											<div style="background: #FFF; border-radius: 3px; border: 1px solid #e6e6e6; padding: 11px 11px 0 11px; position: relative; margin-bottom: 22px;">
+												<div style="float: left; width: 55px; max-width: 55px;">
+														<img src="img/v5.jpg" role="img" style="max-width: 100%;">
+												</div>
+												<div style="margin-left: 66px; font-size: 14px; font-weight: 700;">
+													Product name lorem ipsum dolor et sit amet duis autem vel illuminat...
+												</div>
+												<div class="basket-card-header-delimiter"></div>
+
+												<table class="quote-card-data-table">
+													<tbody>
+														<tr>
+															<td width="35%">
+																SUPPLIER
+															</td>
+															<td class="text-right">
+																<div class="supplier-data">
+																	<span class="pre">Preferred</span> <span class="supplier-name">CompleteIT</span>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																NEEDED BY
+															</td>
+															<td class="text-right">
+																<span class="static-qty-data">
+																<span class="pre">22 days</span> <span class="quantity">2017-09-22</span>
+																</span>
+																<div class="edit-date-data">
+																	<form data-ts="Form" data-ts-spirit="ts.ui.FormSpirit" class="ts-form ts-spirit" novalidate="novalidate" action="javascript:void(false);">
+																		<fieldset data-ts-spirit="ts.ui.FieldSetSpirit" class="ts-fieldset ts-spirit">
+																			<label data-ts-spirit="ts.ui.LabelSpirit" class="ts-label ts-spirit ts-engine-webkit ts-fieldlabel ts-textlabel ts-fakelabel ts-datelabel">
+																				<input type="date" value="2017-09-22" min="2017-09-22" max="2018-01-01" data-ts-spirit="ts.ui.DateInputSpirit" class="ts-dateinput ts-spirit ts-field" spellcheck="false" autocomplete="off"><input data-ts-spirit="ts.ui.FakeDateInputSpirit" class="ts-fakedateinput ts-input ts-spirit ts-fake ts-field ts-text ts-date" tabindex="-1" type="text" name="" readonly="" spellcheck="false" autocomplete="off">
+																			</label>
+																		</fieldset>
+																	</form>
+																</div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																QUANTITY
+															</td>
+															<td class="text-right">
+																<span class="static-qty-data">
+																	<span class="pre">Ea.</span> <span class="quantity">1</span>
+																</span>
+																<div class="edit-qty-data">
+																	<span class="quantity">Ea.</span>
+																	<input type="number" value="1" class="qty-input">
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+											<p style="font-weight: 400; margin-bottom: 11px; text-align: right;">
+												<span style="font-weight: 700;">QUOTE TOTAL VALUE</span><br /><span style="font-size: 14px;">4920.00 EUR</span>
+											</p>
+										</div>
+									</div>
+
+									<div class="basket-card-footer">
+										<div class="expand-card">
+											<a href="#" id="ico-switchz" class="collapse-expand-ico"></a>
+										</div>
+										<div class="other-actions">
+											<button data-ts="Button" class="ts-secondary">
+												<span>Withdraw Quote Request</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script>
+		ts.ui.ready(() => {
+			ts.ui.Footer.buttons([
+				{label : 'Order All Ready Items', type : 'ts-primary'},
+				{label : 'Contact Supplier', type : 'ts-secondary'}
+			]);
+
+			const allCardsHeaders = document.getElementsByClassName("expand-card");
+			for(header of allCardsHeaders) {
+				header.addEventListener("click", clickCard);
+			}
+
+			function clickCard(e) {
+				this.parentNode.parentNode.parentNode.classList.toggle('card-active');
+				document.getElementById("first-card").classList.toggle('card-overlay');
+				document.getElementById("ico-switch").classList.toggle('reverse');
+				
+				if (document.getElementsByClassName('card-active').length > 0) {
+				ts.ui.Footer.hide();
+				} else {
+					ts.ui.Footer.show();
+				}
+			}
+    	});
+	</script>
+
+	<script>
+		ts.ui.ready(() => {
+			const allCardsHeaders = document.getElementsByClassName("quote-more-items");
+			for(header of allCardsHeaders) {
+				header.addEventListener("click", clickItems);
+			}
+
+			function clickItems(e) {
+				this.parentNode.parentNode.parentNode.classList.toggle('card-active');
+				document.getElementById("first-card").classList.toggle('card-overlay');
+				document.getElementById("ico-switch").classList.toggle('reverse');
+				if (document.getElementsByClassName('card-active').length > 0) {
+				ts.ui.Footer.hide();
+				} else {
+					ts.ui.Footer.show();
+				}
+			}
+    	});
+	</script>
+
+<script>
+	ts.ui.ready(() => {
+		$(".card-checkbox").change(function() {
+			$("#cardone").removeClass("card-active", this.checked);
+			$("#first-card").removeClass("card-overlay", this.checked);
+			document.getElementById("ico-switch").classList.toggle('reverse');
+			if (document.getElementsByClassName('card-active').length > 0) {
+				ts.ui.Footer.hide();
+				} else {
+					ts.ui.Footer.show();
+				}
+		}).change();
+
+		$(".card-checkbox").change(function() {
+			$("#cardtwo").removeClass("card-active", this.checked);
+			$("#first-card").removeClass("card-overlay", this.checked);
+			document.getElementById("ico-switchz").classList.toggle('reverse');
+			if (document.getElementsByClassName('card-active').length > 0) {
+				ts.ui.Footer.hide();
+				} else {
+					ts.ui.Footer.show();
+				}
+		}).change();
+	});
+</script>
+</body>
+</html>

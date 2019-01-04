@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="22px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>expand</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="expand" fill="#20A0E9">
+            <polygon id="Shape" points="9.66495819 7.56471357 11 6.30431424 7.5 3 4 6.30431424 5.33504181 7.56471357 6.5558403 6.41217019 6.5558403 14.5878298 5.33504181 13.4352864 4 14.6956858 7.5 18 11 14.6956858 9.66495819 13.4352864 8.4441597 14.5878298 8.4441597 6.41217019"></polygon>
+            <rect id="Rectangle-path" x="0" y="0" width="15" height="2"></rect>
+            <rect id="Rectangle-path" x="0" y="20" width="15" height="2"></rect>
+        </g>
+    </g>
+</svg>
