@@ -17,7 +17,7 @@
 	width: auto;
 	max-width: none;
 	min-width: 0;
-	margin: 0 -11px;
+	margin: 0 -10px;
 }
 .group:before,
 .group:after {
@@ -30,7 +30,7 @@
 .columns {
 	float: left;
 	min-height: 1px;
-	padding: 0 11px;
+	padding: 0 10px;
 	position: relative;
 }
 .fluid-grid-container .one-col-desktop {
@@ -111,7 +111,7 @@
 
 /* APP CONTAINER */
 .custom-basket-header {
-	padding: 11px 11px 0 11px;
+	padding: 10px 10px 0 10px;
 }
 .bg-basket-header {
 	background: #134198 !important;
@@ -123,14 +123,14 @@
 	padding: 70px 0 0 0;
 }
 a.item-action-link {
-	margin-right: 44px;
+	margin-right: 40px;
 	color: #FFF;
 }
 a.item-action-link i {
 	padding-right: 5.5px;
 }
 .section-container-header {
-	padding: 22px;
+	padding: 20px;
 	font-size: 18px;
 	font-weight: 400;
 	background: #efefef;
@@ -152,49 +152,19 @@ a.item-action-link i {
 	padding: 0 110px;
 }
 .app-name-icon {
-	height: 44px;
+	height: 40px;
 	border-radius: 3px;
-	line-height: 44px;
+	line-height: 40px;
 	color: #FFF;
-	padding: 0 11px;
-	width: 44px;
+	padding: 0 8px;
+	width: 40px;
 	float: left;
 	border: 1px solid #FFF;
 }
 .app-name {
 	margin-left: 55px;
 	margin-top:0;
-	line-height: 44px;
-}
-.logo-with-cart {
-	width: 198px;
-	margin: 4.4px auto;
-}
-.logo-with-cart .logo-container {
-	float: left;
-	background: #FFF;
-	padding: 2.2px 11px;
-	border-top-left-radius: 50px;
-	border-bottom-left-radius: 50px;
-	opacity: 0.5;
-}
-.logo-with-cart .logo-container img {
-	position: relative;
-	top: 3px;
-}
-.logo-with-cart .in-cart {
-	float: left;
-	background: #FFF;
-	padding: 2.2px 11px;
-	border-top-right-radius: 50px;
-	border-bottom-right-radius: 50px;
-	line-height: 33px;
-	color:#20a0e9;
-}
-.logo-with-cart .in-cart .number {
-	margin-left: 4.4px;
-	padding-right: 4.4px;
-	font-weight: 700;
+	line-height: 40px;
 }
 
 
@@ -203,7 +173,7 @@ a.item-action-link i {
 	background: #FFF;
 	border: 1px solid #e6e6e6;
 	height: 338px;
-	padding: 11px 11px 0 11px;
+	padding: 10px 10px 0 10px;
 	position: relative;
 	transition: 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
 	box-shadow: 0 0px 4px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07);
@@ -242,31 +212,31 @@ a.item-action-link i {
 	float: right;
 }
 .basket-card-container.selected .edit-date-data label:before {
-	bottom: 14px !important;
+	bottom: 15px !important;
 	right: 0 !important;
 }
 .basket-card-container .footer-actions {
 	position: relative;
-	top: 11px;
+	top: 10px;
 }
 .basket-card-container .footer-actions a {
 	color: #000;
-	margin-right: 11px;
+	margin-right: 10px;
 	font-size: 24px;
 }
 .basket-card-container .basket-checkbox {
 	position: absolute;
-	right: 11px;
-	top: 11px;
+	right: 10px;
+	top: 10px;
 }
 .basket-card-container .basket-card-header {
-	margin-left: 99px;
+	margin-left: 100px;
 	font-size: 14px;
 	font-weight: 700;
-	padding-right: 44px;
+	padding-right: 40px;
 }
 .basket-card-container .basket-card-header-delimiter {
-	margin: 11px -11px 0 -11px;
+	margin: 10px -10px 0 -10px;
 	border-bottom: 1px solid #f4f4f4;
 }
 .basket-card-container .status {
@@ -280,8 +250,8 @@ a.item-action-link i {
 }
 .basket-card-container .basked-card-image {
 	float: left;
-	width: 88px;
-	max-width: 88px;
+	width: 90px;
+	max-width: 90px;
 }
 .basket-card-container .basked-card-image img {
 	max-width: 100%;
@@ -302,19 +272,19 @@ a.item-action-link i {
 	border-bottom: none;
 }
 .basket-card-container .card-data-table td {
-	height: 44px;
+	height: 40px;
 	vertical-align: middle;
 	font-weight: 600;
 }
 .quote-card-data-table td {
-	height: 33px;
+	height: 30px;
 	vertical-align: middle;
 	font-weight: 600;
 }
 .basket-card-container .card-data-table .pre, .quote-card-data-table .pre {
 	font-weight: 400;
 	color: #969696;
-	padding-right: 5.5px;
+	padding-right: 5px;
 }
 .basket-card-container .card-data-table .unknown-value, .quote-card-data-table .unknown-value {
 	font-weight: 700;
@@ -332,6 +302,7 @@ a.item-action-link i {
 	font-weight: 700;
 	color: #1e1e1e;
 }
+
 .basket-card-container .price-container {
 	clear:both;
 	text-align: right;
@@ -343,7 +314,7 @@ a.item-action-link i {
 .missing-details h3,
 .ready-order h3 {
 	border-bottom: 1px solid #CCC;
-	padding-bottom: 22px;
+	padding-bottom: 20px;
 }
 .supplier-data {
 	white-space: nowrap;
@@ -363,17 +334,17 @@ a.item-action-link i {
 	border: 1px solid #afafaf;
 	border-radius: 3px;
 	background-color: #fff;
-	height: 33px;
+	height: 30px;
 	text-align: right;
-	padding: 11px;
-	width: 88px !important;
+	padding: 10px;
+	width: 90px !important;
 	margin-right: 0;
 }
 .basket-card-container .qty-input:hover,
 .basket-card-container .qty-input:focus {
 	border: 1px solid rgba(32,160,233,.25);
-  -webkit-box-shadow: 0 0 0 1px rgba(32,160,233,.75);
-  box-shadow: 0 0 0 1px rgba(32,160,233,.75);
+	-webkit-box-shadow: 0 0 0 1px rgba(32,160,233,.75);
+	box-shadow: 0 0 0 1px rgba(32,160,233,.75);
 	cursor: text;
 }
 .basket-card-container .basket-card-button {
@@ -387,12 +358,12 @@ a.item-action-link i {
 .basket-card-footer {
     background: #F4F4F4;
     margin: 0 -1px;
-    height: 64px;
+    height: 59px;
     position: absolute;
-    bottom: -66px;
+    bottom: -60px;
     left: 0;
 	right: 0;
-	padding: 11px 16.5px 11px 22px;
+	padding: 10px 5.5px 10px 10px;
 	-webkit-border-bottom-right-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-bottomright: 5px;
@@ -403,7 +374,7 @@ a.item-action-link i {
 
 .basket-card-footer .expand-card {
 	float: left;
-	line-height: 44px;
+	line-height: 40px;
 }
 
 .basket-card-footer .other-actions {
@@ -411,31 +382,35 @@ a.item-action-link i {
 	visibility: hidden;
 }
 
-.section-margin-top {
-	margin-top: 33px;
+.basket-card-footer .no-further-actions {
+	line-height: 40px;
+	font-style: italic;
 }
 
- .card {
-    background-color: #fefefe;
-	height: 338px;
+.section-margin-top {
+	margin-top: 30px;
+}
+
+.card {
+	height: 320px;
 	border-radius: 3px;
-    transition: 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+	transition: 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
 	right: 0;
 	overflow: hidden;
 }
 
 .card-active {
-	height: 517px!important;
+	height: 500px!important;
 	z-index: 99;
 }
 
 .card-active .basket-card-container {
-	height: 517px!important;
+	height: 500px!important;
 	margin: 0;
 }
 
@@ -445,26 +420,52 @@ a.item-action-link i {
 }
 
 .card-active .basket-card-container .basket-card-details {
-	max-height: 352px;
+	max-height: 335px;
 	overflow: auto;
-	margin-right: -11px;
-    padding-right: 11px;
+	margin-right: -10px;
+    padding-right: 10px;
 }
 
 .card-active .basket-card-container.quote .basket-card-details {
-	max-height: 396px;
+	max-height: 380px;
+}
+
+.card-active .basket-card-container .basket-card-details .more-details {
+	margin: 20px 0;
+}
+
+.card-active .basket-card-container .basket-card-details .more-details .section-title {
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.card-active .basket-card-container .basket-card-details .more-details .label-value {
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.card-active .basket-card-container .basket-card-details .more-details .label-value span {
+	font-weight: 700;
+}
+
+.card-active .basket-card-container .basket-card-details .more-details .label-value span.q-message {
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .card-active .basket-card-footer .other-actions {
 	float: right;
 	visibility: visible;
+	padding-top: 10px;
 }
 
 .card-overlay:after {
 	content: "";
 	position: fixed;
 	left: 0;
-	top: 66px;
+	top: 60px;
 	width: 100vw;
 	height: 100vh;
 	background: rgba(0,0,0,.5);
@@ -472,16 +473,16 @@ a.item-action-link i {
 }
 
 .basket-card-container.requires-action {
-	height: 250px;
+	height: 235px;
 }
 
 .card.requires-action {
-	height: 316px;
+	height: 295px;
 }
 
 .collapse-expand-ico {
 	width: 15px;
-	height: 44px;
+	height: 40px;
 	overflow: hidden;
 	background: url("../img/expand.svg") no-repeat center;
 	display: inline-block;
@@ -490,4 +491,43 @@ a.item-action-link i {
 
 .reverse {
 	background: url("../img/collapse.svg") no-repeat center !important;
+}
+
+.small-q-item-card {
+	border-radius: 3px;
+	border: 1px solid #e6e6e6;
+	padding: 10px 10px 0 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.small-q-item-card .q-item-img {
+	float: left;
+	width: 55px;
+	max-width: 55px;
+}
+
+.small-q-item-card .q-item-img img {
+	max-width: 100%;
+}
+
+.small-q-item-card .q-item-name {
+	margin-left: 65px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.card-active .basket-card-container.quote .basket-card-details .q-total-value {
+	font-weight: 400;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.card-active .basket-card-container.quote .basket-card-details .q-total-value span {
+	font-weight: 700;
+}
+
+.card-active .basket-card-container.quote .basket-card-details .q-total-value span.value {
+	font-size: 14px;
+	font-weight: 400;
 }
